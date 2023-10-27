@@ -1,0 +1,14 @@
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\bin\Debug\net6.0\MyProject.DAL.deps.json
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\bin\Debug\net6.0\MyProject.DAL.dll
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\bin\Debug\net6.0\MyProject.DAL.pdb
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.AssemblyInfoInputs.cache
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.AssemblyInfo.cs
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.csproj.CoreCompileInputs.cache
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.dll
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\refint\MyProject.DAL.dll
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.pdb
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\ref\MyProject.DAL.dll
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\bin\Debug\net6.0\MyProject.DAL.runtimeconfig.json
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.csproj.AssemblyReference.cache
+C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.genruntimeconfig.cache
