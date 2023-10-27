@@ -9,3 +9,14 @@ C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.MODEL\obj\Debug\ne
 C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.MODEL\obj\Debug\net6.0\refint\MyProject.MODEL.dll
 C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.pdb
 C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.MODEL\obj\Debug\net6.0\ref\MyProject.MODEL.dll
+C:\atv2lp3\MyProject.MODEL\bin\Debug\net6.0\MyProject.MODEL.deps.json
+C:\atv2lp3\MyProject.MODEL\bin\Debug\net6.0\MyProject.MODEL.dll
+C:\atv2lp3\MyProject.MODEL\bin\Debug\net6.0\MyProject.MODEL.pdb
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.GeneratedMSBuildEditorConfig.editorconfig
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.AssemblyInfoInputs.cache
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.AssemblyInfo.cs
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.csproj.CoreCompileInputs.cache
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.dll
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\refint\MyProject.MODEL.dll
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\MyProject.MODEL.pdb
+C:\atv2lp3\MyProject.MODEL\obj\Debug\net6.0\ref\MyProject.MODEL.dll

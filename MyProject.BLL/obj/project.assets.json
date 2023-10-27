@@ -3169,19 +3169,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\victo\\.nuget\\packages\\": {}
+    "C:\\Users\\evila\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj",
+      "projectUniqueName": "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj",
       "projectName": "MyProject.BLL",
-      "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj",
-      "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\obj\\",
+      "projectPath": "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj",
+      "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
+      "outputPath": "C:\\atv2lp3\\MyProject.BLL\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -3195,11 +3195,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj": {
-              "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj"
+            "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj": {
+              "projectPath": "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj"
             },
-            "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj": {
-              "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj"
+            "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj": {
+              "projectPath": "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj"
             }
           }
         }
@@ -3229,7 +3229,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
       }
     }
   }

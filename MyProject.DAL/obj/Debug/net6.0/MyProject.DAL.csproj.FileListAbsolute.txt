@@ -12,3 +12,11 @@ C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6
 C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\bin\Debug\net6.0\MyProject.DAL.runtimeconfig.json
 C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.csproj.AssemblyReference.cache
 C:\Users\victo\source\repos\Gerenciador-finannças2\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.genruntimeconfig.cache
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.dll
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\refint\MyProject.DAL.dll
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.pdb
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.csproj.AssemblyReference.cache
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.AssemblyInfoInputs.cache
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.AssemblyInfo.cs
+C:\atv2lp3\MyProject.DAL\obj\Debug\net6.0\MyProject.DAL.csproj.CoreCompileInputs.cache

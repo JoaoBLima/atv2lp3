@@ -1,19 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MyProject.DAL.DBContext;
-
-public partial class Usuario
+namespace MyProject.DAL.DBContext
 {
-    public int Id { get; set; }
-
-    public string? Login { get; set; }
-
-    public string? Senha { get; set; }
-
-    public string? Nome { get; set; }
-
-    public virtual ICollection<Despesa> Despesas { get; set; } = new List<Despesa>();
-
-    public virtual ICollection<Receita> Receita { get; set; } = new List<Receita>();
+    internal class Usuario
+    {
+    }
 }

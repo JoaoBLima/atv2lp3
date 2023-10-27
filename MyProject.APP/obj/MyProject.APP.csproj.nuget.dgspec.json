@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.APP\\MyProject.APP.csproj": {}
+    "C:\\atv2lp3\\MyProject.APP\\MyProject.APP.csproj": {}
   },
   "projects": {
-    "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.APP\\MyProject.APP.csproj": {
+    "C:\\atv2lp3\\MyProject.APP\\MyProject.APP.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.APP\\MyProject.APP.csproj",
+        "projectUniqueName": "C:\\atv2lp3\\MyProject.APP\\MyProject.APP.csproj",
         "projectName": "MyProject.APP",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.APP\\MyProject.APP.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.APP\\obj\\",
+        "projectPath": "C:\\atv2lp3\\MyProject.APP\\MyProject.APP.csproj",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
+        "outputPath": "C:\\atv2lp3\\MyProject.APP\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,11 +28,11 @@
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
             "projectReferences": {
-              "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj": {
-                "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj"
+              "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj": {
+                "projectPath": "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj"
               },
-              "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj": {
-                "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj"
+              "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj": {
+                "projectPath": "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj"
               }
             }
           }
@@ -65,21 +65,21 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj": {
+    "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj",
+        "projectUniqueName": "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj",
         "projectName": "MyProject.BLL",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\MyProject.BLL.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.BLL\\obj\\",
+        "projectPath": "C:\\atv2lp3\\MyProject.BLL\\MyProject.BLL.csproj",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
+        "outputPath": "C:\\atv2lp3\\MyProject.BLL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -93,11 +93,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj": {
-                "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj"
+              "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj": {
+                "projectPath": "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj"
               },
-              "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj": {
-                "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj"
+              "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj": {
+                "projectPath": "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj"
               }
             }
           }
@@ -127,21 +127,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj": {
+    "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj",
+        "projectUniqueName": "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj",
         "projectName": "MyProject.DAL",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\MyProject.DAL.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\obj\\",
+        "projectPath": "C:\\atv2lp3\\MyProject.DAL\\MyProject.DAL.csproj",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
+        "outputPath": "C:\\atv2lp3\\MyProject.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -155,8 +155,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj": {
-                "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj"
+              "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj": {
+                "projectPath": "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj"
               }
             }
           }
@@ -206,21 +206,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj": {
+    "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj",
+        "projectUniqueName": "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj",
         "projectName": "MyProject.MODEL",
-        "projectPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\MyProject.MODEL.csproj",
-        "packagesPath": "C:\\Users\\victo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.MODEL\\obj\\",
+        "projectPath": "C:\\atv2lp3\\MyProject.MODEL\\MyProject.MODEL.csproj",
+        "packagesPath": "C:\\Users\\evila\\.nuget\\packages\\",
+        "outputPath": "C:\\atv2lp3\\MyProject.MODEL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\victo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\evila\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -261,7 +261,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }
