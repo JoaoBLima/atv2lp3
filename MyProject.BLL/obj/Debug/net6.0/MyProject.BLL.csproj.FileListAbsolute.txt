@@ -17,3 +17,14 @@ C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\MyProject.BLL.GeneratedMSBuildEditorCo
 C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\MyProject.BLL.AssemblyInfoInputs.cache
 C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\MyProject.BLL.AssemblyInfo.cs
 C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\MyProject.BLL.csproj.CoreCompileInputs.cache
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.BLL.deps.json
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.BLL.runtimeconfig.json
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.BLL.dll
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.BLL.pdb
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.DAL.dll
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.MODEL.dll
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.DAL.pdb
+C:\atv2lp3\MyProject.BLL\bin\Debug\net6.0\MyProject.MODEL.pdb
+C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\MyProject.BLL.csproj.CopyComplete
+C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\MyProject.BLL.genruntimeconfig.cache
+C:\atv2lp3\MyProject.BLL\obj\Debug\net6.0\ref\MyProject.BLL.dll
