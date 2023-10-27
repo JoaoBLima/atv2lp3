@@ -18,7 +18,7 @@ namespace MyProject.BLL
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
             {
-                var usuario = dbContext.Usuario.Single(p => p.Id == Id);
+                var usuario = dbContext.Usuarios.Single(p => p.Id == Id);
                 return usuario;
             }
         }
@@ -27,7 +27,7 @@ namespace MyProject.BLL
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
             {
-                var usuario = dbContext.Usuario.ToList();
+                var usuario = dbContext.Usuarios.ToList();
                 return usuario;
             }
 
@@ -38,20 +38,20 @@ namespace MyProject.BLL
 
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
             {
-                var usuario = dbContext.Usuario.Single(p => p.Id == _usuario.Id);
+                var usuario = dbContext.Usuarios.Single(p => p.Id == _usuario.Id);
                 usuario.Nome = _usuario.Nome;
-                usuario.Email = _usuario.Email;
-                usuario.Telefone = _usuario.Telefone;
+                usuario.Login = _usuario.Login;
+                usuario.Senha = _usuario.Senha;
                 dbContext.SaveChanges();
             }
 
         }
 
-        public static void Excluir(Usuario usuario)
+        public static void Excluir(Usuario _usuario)
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
             {
-                var usuario = dbContext.Usuario.Single(p => p.Id == _usuario.Id);
+                var usuario = dbContext.Usuarios.Single(p => p.Id == _usuario.Id);
                 dbContext.Remove(usuario);
                 dbContext.SaveChanges();
             }
