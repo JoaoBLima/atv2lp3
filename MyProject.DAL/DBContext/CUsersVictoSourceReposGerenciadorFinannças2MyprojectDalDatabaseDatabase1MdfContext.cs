@@ -5,6 +5,8 @@ using MyProject.MODEL;
 
 namespace MyProject.DAL.DBContext;
 
+//C:\atv2lp3\MyProject.DAL\database\Database1.mdf
+
 public partial class CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext : DbContext
 {
     public CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext()
@@ -26,7 +28,7 @@ public partial class CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDat
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see http://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\victo\\source\\repos\\Gerenciador-finannças2\\MyProject.DAL\\database\\Database1.mdf;Integrated Security=True");
+        => optionsBuilder.UseSqlServer("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\atv2lp3\\MyProject.DAL\\database\\Database1.mdf;Integrated Security=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
