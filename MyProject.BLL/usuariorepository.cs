@@ -23,6 +23,24 @@ namespace MyProject.BLL
             }
         }
 
+        public static Boolean AutenticaUsuario(String login, String senha)
+        {
+            using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
+            {
+                var usuario = dbContext.Usuarios.Single(p => p.Login == login);
+                if (usuario.Login == login && usuario.Senha == senha)
+                {
+                    return true;
+                }
+                else
+                {
+                    return false;
+                }
+  
+
+            }
+        }
+
         public static List<Usuario> GetAll()
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())

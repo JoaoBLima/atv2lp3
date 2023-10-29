@@ -83,3 +83,4 @@ C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\refint\MyProject.APP.dll
 C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.pdb
 C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.genruntimeconfig.cache
 C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\ref\MyProject.APP.dll
+C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.Form2.resources
