@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MyProject.MODEL;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -28,7 +29,7 @@ namespace MyProject.APP
         private void Form1_Load(object sender, EventArgs e)
         {
             comboBox1.Items.Clear();
-            string[] opcoes = { "Extrato", "Cadastrar nova categoria de despesa",
+            string[] opcoes = { "Extrato da conta", "Cadastrar nova categoria de despesa",
                                 "Cadastrar nova despesa", "Cadastrar nova receita"};
             comboBox1.Items.AddRange(opcoes);
         }
@@ -41,7 +42,7 @@ namespace MyProject.APP
 
                 switch (valorSelecionado)
                 {
-                    case "Extrato":
+                    case "Extrato da conta":
                         Form3 extrato = new Form3();
                         extrato.ShowDialog();
                         this.Close();
@@ -51,6 +52,9 @@ namespace MyProject.APP
                     case "Cadastrar nova despesa":
                         break;
                     case "Cadastrar nova receita":
+                        CadastrarReceita novaReceita = new CadastrarReceita();
+                        novaReceita.ShowDialog();
+                        this.Close();
                         break;
                     default:
                         MessageBox.Show("Opção não reconhecida");

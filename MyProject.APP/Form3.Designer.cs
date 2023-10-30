@@ -28,47 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            comboBox1 = new ComboBox();
             label1 = new Label();
-            button1 = new Button();
+            label2 = new Label();
             SuspendLayout();
-            // 
-            // comboBox1
-            // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(34, 60);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(151, 28);
-            comboBox1.TabIndex = 0;
-            comboBox1.Click += Form3_Load;
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 37);
+            label1.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.Location = new Point(12, 9);
             label1.Name = "label1";
-            label1.Size = new Size(274, 20);
+            label1.Size = new Size(155, 28);
             label1.TabIndex = 1;
-            label1.Text = "Selecione o extrato que deseja imprimir";
+            label1.Text = "Extrato da conta";
             // 
-            // button1
+            // label2
             // 
-            button1.Location = new Point(34, 109);
-            button1.Name = "button1";
-            button1.Size = new Size(94, 29);
-            button1.TabIndex = 2;
-            button1.Text = "Selecionar";
-            button1.UseVisualStyleBackColor = true;
-            button1.Click += btEnter_Click;
+            label2.AutoSize = true;
+            label2.Location = new Point(18, 46);
+            label2.Name = "label2";
+            label2.Size = new Size(108, 20);
+            label2.TabIndex = 2;
+            label2.Text = "Saldo atual: R$";
             // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(515, 360);
-            Controls.Add(button1);
+            ClientSize = new Size(531, 287);
+            Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(comboBox1);
             Name = "Form3";
             Text = "Form3";
             ResumeLayout(false);
@@ -77,8 +66,7 @@
 
         #endregion
 
-        private ComboBox comboBox1;
         private Label label1;
-        private Button button1;
+        private Label label2;
     }
 }

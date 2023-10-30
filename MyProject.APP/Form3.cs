@@ -15,38 +15,11 @@ namespace MyProject.APP
         public Form3()
         {
             InitializeComponent();
+            decimal saldoAtual = BLL.ReceitaRepository.getSoma();
+            saldoAtual.ToString();
+
+            label2.Text = "Saldo atual: R$" + saldoAtual;
         }
 
-        private void Form3_Load(object sender, EventArgs e)
-        {
-            comboBox1.Items.Clear();
-            string[] opcoes = { "Conta", "Despesa", "Receita" };
-            comboBox1.Items.AddRange(opcoes);
-        }
-
-        private void btEnter_Click(object sender, EventArgs e)
-        {
-            if (comboBox1.SelectedItem != null)
-            {
-                string valorSelecionado = comboBox1.SelectedItem.ToString();
-
-                switch (valorSelecionado)
-                {
-                    case "Conta":
-                        break;
-                    case "Despesa":
-                        break;
-                    case "Receita":
-                        break;
-                    default:
-                        MessageBox.Show("Opção não reconhecida");
-                        break;
-                }
-            }
-            else
-            {
-                MessageBox.Show("Nenhuma opção selecionada");
-            }
-        }
     }
 }

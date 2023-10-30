@@ -86,3 +86,4 @@ C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\ref\MyProject.APP.dll
 C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.Form3.resources
 C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.Seleção.resources
 C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.Form4.resources
+C:\atv2lp3\MyProject.APP\obj\Debug\net6.0-windows\MyProject.APP.CadastrarReceita.resources

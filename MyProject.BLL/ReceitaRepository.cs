@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.BLL
 {
-    internal class ReceitaRepository
+    public class ReceitaRepository
     {
         public static void Add(Receita _receita)
         {
@@ -38,7 +38,7 @@ namespace MyProject.BLL
 
         }
 
-        /*public decimal List<Receita> GetTotal()
+        public static decimal getSoma()
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
             {
@@ -48,13 +48,13 @@ namespace MyProject.BLL
 
                 foreach (var receita in valores)
                 {
-                    somaTotal += receita;
+                    somaTotal = (decimal)(somaTotal + receita);
                 }
 
                 return somaTotal;
             }
 
-        }*/
+        }
 
         public static void Update(Receita _receita)
         {
