@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.BLL
 {
-    internal class DespesaRepository
+    public class DespesaRepository
     {
         public static void Add(Despesa _despesa)
         {

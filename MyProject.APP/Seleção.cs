@@ -48,8 +48,14 @@ namespace MyProject.APP
                         this.Close();
                         break;
                     case "Cadastrar nova categoria de despesa":
+                        CadastrarCategoria novaCategoria = new CadastrarCategoria();
+                        novaCategoria.ShowDialog();
+                        this.Close();
                         break;
                     case "Cadastrar nova despesa":
+                        CadastrarDespesa novaDespesa = new CadastrarDespesa();
+                        novaDespesa.ShowDialog();
+                        this.Close();
                         break;
                     case "Cadastrar nova receita":
                         CadastrarReceita novaReceita = new CadastrarReceita();

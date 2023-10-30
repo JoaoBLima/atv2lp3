@@ -39,8 +39,6 @@ namespace MyProject.APP
             receita.Data = data;
             receita.Idusuario = usuario.Id;
 
-            label5.Text = login;
-
             BLL.ReceitaRepository.Add(receita);
             label5.Text = "Receita cadastrada";
             label5.Visible = true;
@@ -49,7 +47,14 @@ namespace MyProject.APP
 
         private void btVoltar_CLick(object sender, EventArgs e)
         {
-            
+
+            String login = textBox3.Text;
+            Usuario usuario = BLL.usuarioRepository.GetByLogin(login);
+            String user = usuario.ToString();
+
+            this.Close();
+            Seleção voltar = new Seleção(user);
+            voltar.ShowDialog();
         }
     }
 }

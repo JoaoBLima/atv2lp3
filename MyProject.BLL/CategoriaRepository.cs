@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace MyProject.BLL
 {
-    internal class CategoriaRepository
+    public class CategoriaRepository
     {
         public static void Add(Categorium _categoria)
         {
