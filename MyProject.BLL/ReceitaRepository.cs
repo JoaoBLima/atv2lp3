@@ -38,6 +38,24 @@ namespace MyProject.BLL
 
         }
 
+        /*public decimal List<Receita> GetTotal()
+        {
+            using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
+            {
+                var valores = dbContext.Receitas.Select(r => r.Valor).ToList();
+
+                decimal somaTotal = 0;
+
+                foreach (var receita in valores)
+                {
+                    somaTotal += receita;
+                }
+
+                return somaTotal;
+            }
+
+        }*/
+
         public static void Update(Receita _receita)
         {
 
