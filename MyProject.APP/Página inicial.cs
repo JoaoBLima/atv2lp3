@@ -36,13 +36,13 @@ namespace MyProject.APP
                     label3.Visible = true;
                 }
             }
-            catch (Exception ex) 
+            catch (Exception ex)
             {
                 label3.Text = "Não foi possível realizar o login: " + ex.Message;
                 label3.Visible = true;
                 senhaTxt.Text = "";
             }
-            
+
 
         }
 

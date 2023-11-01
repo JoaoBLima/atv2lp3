@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             loginTxt = new TextBox();
             senhaTxt = new TextBox();
             label1 = new Label();
@@ -35,11 +36,13 @@
             btLogin = new Button();
             button1 = new Button();
             label3 = new Label();
+            pictureBox1 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // loginTxt
             // 
-            loginTxt.Location = new Point(34, 67);
+            loginTxt.Location = new Point(133, 137);
             loginTxt.Name = "loginTxt";
             loginTxt.Size = new Size(246, 27);
             loginTxt.TabIndex = 0;
@@ -47,7 +50,7 @@
             // 
             // senhaTxt
             // 
-            senhaTxt.Location = new Point(34, 134);
+            senhaTxt.Location = new Point(133, 204);
             senhaTxt.Name = "senhaTxt";
             senhaTxt.PasswordChar = '*';
             senhaTxt.Size = new Size(246, 27);
@@ -58,7 +61,7 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(34, 44);
+            label1.Location = new Point(133, 114);
             label1.Name = "label1";
             label1.Size = new Size(59, 20);
             label1.TabIndex = 2;
@@ -67,7 +70,7 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(34, 111);
+            label2.Location = new Point(133, 181);
             label2.Name = "label2";
             label2.Size = new Size(49, 20);
             label2.TabIndex = 3;
@@ -75,20 +78,24 @@
             // 
             // btLogin
             // 
-            btLogin.Location = new Point(34, 197);
+            btLogin.BackColor = Color.LightGreen;
+            btLogin.FlatAppearance.BorderColor = Color.LightGreen;
+            btLogin.FlatAppearance.BorderSize = 0;
+            btLogin.FlatAppearance.MouseDownBackColor = SystemColors.ActiveBorder;
+            btLogin.Location = new Point(133, 247);
             btLogin.Name = "btLogin";
-            btLogin.Size = new Size(94, 29);
+            btLogin.Size = new Size(246, 40);
             btLogin.TabIndex = 4;
             btLogin.Tag = "btLogin";
             btLogin.Text = "Login";
-            btLogin.UseVisualStyleBackColor = true;
+            btLogin.UseVisualStyleBackColor = false;
             btLogin.Click += btLogin_Click;
             // 
             // button1
             // 
-            button1.Location = new Point(143, 197);
+            button1.Location = new Point(133, 293);
             button1.Name = "button1";
-            button1.Size = new Size(137, 29);
+            button1.Size = new Size(246, 29);
             button1.TabIndex = 6;
             button1.Text = "Novo usuário";
             button1.UseVisualStyleBackColor = true;
@@ -96,19 +103,32 @@
             // 
             // label3
             // 
-            label3.AutoSize = true;
-            label3.Location = new Point(34, 254);
+            label3.Font = new Font("Franklin Gothic Book", 10F, FontStyle.Bold, GraphicsUnit.Point);
+            label3.ForeColor = Color.FromArgb(192, 0, 0);
+            label3.Location = new Point(12, 351);
             label3.Name = "label3";
-            label3.Size = new Size(50, 20);
+            label3.Size = new Size(61, 21);
             label3.TabIndex = 7;
             label3.Text = "label3";
             label3.Visible = false;
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
+            pictureBox1.Location = new Point(185, 12);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(157, 75);
+            pictureBox1.TabIndex = 8;
+            pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(389, 318);
+            BackColor = Color.LightSteelBlue;
+            ClientSize = new Size(527, 404);
+            Controls.Add(pictureBox1);
             Controls.Add(label3);
             Controls.Add(button1);
             Controls.Add(btLogin);
@@ -117,7 +137,8 @@
             Controls.Add(senhaTxt);
             Controls.Add(loginTxt);
             Name = "Form1";
-            Text = "Form1";
+            Text = "Bem-vindo ao CIMAWallet";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -131,5 +152,6 @@
         private Button btLogin;
         private Button button1;
         private Label label3;
+        private PictureBox pictureBox1;
     }
 }
