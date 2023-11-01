@@ -26,9 +26,8 @@ namespace MyProject.APP
             if (MyProject.BLL.usuarioRepository.AutenticaUsuario(loginInput, senhaInput))
             {
                 Seleção formularioOpcoes = new Seleção(loginInput);
-                formularioOpcoes.ShowDialog();
-
                 this.Hide();
+                formularioOpcoes.ShowDialog();
             }
             else
             {
@@ -41,8 +40,8 @@ namespace MyProject.APP
         private void btNovoUsuario_Click(object sender, EventArgs e)
         {
             Form4 cadastro = new Form4();
+            this.Hide();
             cadastro.ShowDialog();
-            this.Close();
         }
 
     }

@@ -42,7 +42,7 @@ namespace MyProject.APP
                 switch (valorSelecionado)
                 {
                     case "Extrato":
-                        Form3 extrato = new Form3();
+                        ExtratoTotal extrato = new ExtratoTotal();
                         extrato.ShowDialog();
                         this.Close();
                         break;

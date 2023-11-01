@@ -26,8 +26,8 @@ namespace MyProject.APP
         private void btVoltar_Click(object sender, EventArgs e)
         {
             Form1 inicio = new Form1();
+            this.Hide();
             inicio.ShowDialog();
-            this.Close();
         }
 
         private void btCadastrar_Click(object sender, EventArgs e)
