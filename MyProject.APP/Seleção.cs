@@ -43,24 +43,28 @@ namespace MyProject.APP
                 switch (valorSelecionado)
                 {
                     case "Extrato da conta":
+                        this.Hide();
                         Form3 extrato = new Form3();
                         extrato.ShowDialog();
-                        this.Close();
+                    
                         break;
                     case "Cadastrar nova categoria de despesa":
+                        this.Hide();
                         CadastrarCategoria novaCategoria = new CadastrarCategoria();
                         novaCategoria.ShowDialog();
-                        this.Close();
+                        
                         break;
                     case "Cadastrar nova despesa":
+                        this.Hide();
                         CadastrarDespesa novaDespesa = new CadastrarDespesa();
                         novaDespesa.ShowDialog();
-                        this.Close();
+
                         break;
                     case "Cadastrar nova receita":
+                        this.Hide();
                         CadastrarReceita novaReceita = new CadastrarReceita();
                         novaReceita.ShowDialog();
-                        this.Close();
+                        
                         break;
                     default:
                         MessageBox.Show("Opção não reconhecida");

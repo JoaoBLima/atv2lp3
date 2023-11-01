@@ -28,6 +28,15 @@ namespace MyProject.BLL
             }
         }
 
+        public static Categorium GetByNome(String nome)
+        {
+            using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
+            {
+                var Categorium = dbContext.Categoria.Single(p => p.Nome == nome);
+                return Categorium;
+            }
+        }
+
         public static List<Categorium> GetAll()
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())

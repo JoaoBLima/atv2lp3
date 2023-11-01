@@ -39,6 +39,8 @@
             label5 = new Label();
             label6 = new Label();
             textBox3 = new TextBox();
+            comboBox1 = new ComboBox();
+            label7 = new Label();
             SuspendLayout();
             // 
             // label1
@@ -92,7 +94,7 @@
             // 
             // button1
             // 
-            button1.Location = new Point(22, 292);
+            button1.Location = new Point(22, 330);
             button1.Name = "button1";
             button1.Size = new Size(94, 29);
             button1.TabIndex = 6;
@@ -102,7 +104,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(122, 292);
+            button2.Location = new Point(122, 330);
             button2.Name = "button2";
             button2.Size = new Size(94, 29);
             button2.TabIndex = 7;
@@ -113,7 +115,7 @@
             // label5
             // 
             label5.AutoSize = true;
-            label5.Location = new Point(22, 343);
+            label5.Location = new Point(20, 377);
             label5.Name = "label5";
             label5.Size = new Size(50, 20);
             label5.TabIndex = 8;
@@ -136,11 +138,31 @@
             textBox3.Size = new Size(130, 27);
             textBox3.TabIndex = 10;
             // 
+            // comboBox1
+            // 
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Location = new Point(20, 279);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(151, 28);
+            comboBox1.TabIndex = 11;
+            comboBox1.Click += Despesa_Load;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Location = new Point(20, 256);
+            label7.Name = "label7";
+            label7.Size = new Size(74, 20);
+            label7.TabIndex = 12;
+            label7.Text = "Categoria";
+            // 
             // CadastrarDespesa
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(label7);
+            Controls.Add(comboBox1);
             Controls.Add(textBox3);
             Controls.Add(label6);
             Controls.Add(label5);
@@ -171,6 +193,7 @@
         private Label label5;
         private Label label6;
         private TextBox textBox3;
-
+        private ComboBox comboBox1;
+        private Label label7;
     }
 }

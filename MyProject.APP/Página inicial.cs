@@ -21,20 +21,28 @@ namespace MyProject.APP
             string loginInput = loginTxt.Text;
             string senhaInput = senhaTxt.Text;
 
-            string result = label3.Text;
-
-            if (MyProject.BLL.usuarioRepository.AutenticaUsuario(loginInput, senhaInput))
+            try
             {
-                Seleção formularioOpcoes = new Seleção(loginInput);
-                formularioOpcoes.ShowDialog();
+                if (MyProject.BLL.usuarioRepository.AutenticaUsuario(loginInput, senhaInput))
+                {
+                    this.Hide();
 
-                this.Hide();
+                    Seleção formularioOpcoes = new Seleção(loginInput);
+                    formularioOpcoes.ShowDialog();
+                }
+                else
+                {
+                    label3.Text = "Usuário não cadastrado";
+                    label3.Visible = true;
+                }
             }
-            else
+            catch (Exception ex) 
             {
-                result = "Usuário não cadastrado";
+                label3.Text = "Não foi possível realizar o login: " + ex.Message;
                 label3.Visible = true;
+                senhaTxt.Text = "";
             }
+            
 
         }
 
