@@ -13,5 +13,9 @@ public partial class Receita
 
     public int? Idusuario { get; set; }
 
+    public int? IdCategoria { get; set; }
+
     public virtual Usuario? IdusuarioNavigation { get; set; }
+
+    public virtual Categorium? IdcategoriaNavigation { get; set; }
 }

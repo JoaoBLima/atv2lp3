@@ -28,6 +28,24 @@ namespace MyProject.BLL
             }
         }
 
+        public static decimal getSoma()
+        {
+            using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())
+            {
+                var valores = dbContext.Despesas.Select(r => r.Valor).ToList();
+
+                decimal somaTotal = 0;
+
+                foreach (var receita in valores)
+                {
+                    somaTotal = (decimal)(somaTotal + receita);
+                }
+
+                return somaTotal;
+            }
+
+        }
+
         public static List<Despesa> GetAll()
         {
             using (var dbContext = new CUsersVictoSourceReposGerenciadorFinannças2MyprojectDalDatabaseDatabase1MdfContext())

@@ -30,6 +30,11 @@
         {
             label1 = new Label();
             label2 = new Label();
+            listView1 = new ListView();
+            Categoria = new ColumnHeader();
+            Valor = new ColumnHeader();
+            Data = new ColumnHeader();
+            button1 = new Button();
             SuspendLayout();
             // 
             // label1
@@ -45,17 +50,55 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(18, 46);
+            label2.Location = new Point(12, 47);
             label2.Name = "label2";
             label2.Size = new Size(108, 20);
             label2.TabIndex = 2;
             label2.Text = "Saldo atual: R$";
             // 
+            // listView1
+            // 
+            listView1.Columns.AddRange(new ColumnHeader[] { Categoria, Valor, Data });
+            listView1.Location = new Point(16, 83);
+            listView1.MultiSelect = false;
+            listView1.Name = "listView1";
+            listView1.Size = new Size(515, 238);
+            listView1.TabIndex = 3;
+            listView1.UseCompatibleStateImageBehavior = false;
+            listView1.View = View.Details;
+            // 
+            // Categoria
+            // 
+            Categoria.Text = "Categoria";
+            Categoria.Width = 150;
+            // 
+            // Valor
+            // 
+            Valor.Text = "Valor";
+            Valor.Width = 150;
+            // 
+            // Data
+            // 
+            Data.Text = "Data";
+            Data.Width = 100;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(391, 327);
+            button1.Name = "button1";
+            button1.Size = new Size(140, 29);
+            button1.TabIndex = 4;
+            button1.Text = "Atualizar extrato";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // Form3
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(531, 287);
+            ClientSize = new Size(555, 387);
+            Controls.Add(button1);
+            Controls.Add(listView1);
             Controls.Add(label2);
             Controls.Add(label1);
             Name = "Form3";
@@ -68,5 +111,10 @@
 
         private Label label1;
         private Label label2;
+        private ListView listView1;
+        private ColumnHeader Categoria;
+        private ColumnHeader Valor;
+        private ColumnHeader Data;
+        private Button button1;
     }
 }
